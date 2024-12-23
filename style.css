@@ -99,7 +99,7 @@ transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
   position: absolute;
   width: 100%;
   bottom: 0;
- 
+ transition: 1s ease-in-out;
 }
   
 .s-controller {
@@ -166,11 +166,11 @@ body#spider-man-02-hovered::before{
 }
 
 body#spider-man-03-hovered::before{
-  background-image: url(./img/imgens-andrew.png);
+  background-image: url(./img/imagen-tobey.png);
 }
 
 body[id^="spider-man-"]::before{
-opacity: 1;
+  opacity: 1;
 }
 
 body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
