@@ -1,0 +1,8 @@
+@import url(./Andrew.css);
+
+.s-main-content{
+    background-image: url(../../img/image\ 51.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
