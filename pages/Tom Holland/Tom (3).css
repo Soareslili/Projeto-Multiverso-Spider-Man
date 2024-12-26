@@ -1,0 +1,7 @@
+@import url(./Tom.css);
+
+.s-main-content{
+    background-image: url(.//img/Spider-Man-Movie-Doctor-Strange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

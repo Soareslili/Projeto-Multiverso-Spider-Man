@@ -1,0 +1,7 @@
+@import url(./Tom.css);
+
+.s-main-content{
+    background-image: url(./img/background\ Tom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
