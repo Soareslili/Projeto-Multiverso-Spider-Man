@@ -104,6 +104,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .s-main-content.dimmed {
+    background-color: rgba(0, 0, 0, 0.837);
+    background-blend-mode: darken; 
+  }
   
   .s-wrapper .s-main-content_top {
     height: 80vh;
@@ -237,5 +242,19 @@
     margin-bottom: 90px;
   }
   
+  .s-card_img img {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
   
+  .s-card_img img.fullscreen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    z-index: 1000;
+    cursor: zoom-out;
+    width: 500px;
+    height: 300px;
+  }
   
