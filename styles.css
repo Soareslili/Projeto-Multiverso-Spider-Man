@@ -65,9 +65,9 @@ transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
     gap: 30px;
   }
   
-.s-card {
-  border: 0.5rem solid white;
-  width: calc(100% / 3);
+.s-card {  
+  border: 0.3rem solid white;
+  width: calc(100% /3);
   height: 70vh;
   position: relative;
   margin-top: 30px;
